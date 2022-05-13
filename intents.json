@@ -1,0 +1,629 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "club",
+      "patterns": [
+        "Is there a cultural club in srm?"
+      ],
+      "responses": [
+        "Yes we have cultural club in srm DSA community"
+      ]
+    },
+    {
+      "tag": "Cycle test",
+      "patterns": [
+        "How many Cycle test exam are there in each semester?"
+
+      ],
+      "responses": [
+        "There are 4 cycle test exams held in each semester"
+
+      ]
+    },
+    {
+      "tag": "semester",
+      "patterns": ["When are the semester exam held?"
+      ],
+      "responses": [
+                    "Each semester have one final exam held at the end of semester"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Is there a  sports club in srm?"
+      ],
+      "responses": [
+        "Yes we have sports club in srm DSA community"
+      ]
+    },
+    {
+      "tag": "gaming",
+      "patterns": [
+        "Is there a gaming  club in srm?"
+      ],
+      "responses": [
+        "Yes we have gaming club in srm DSA community"
+      ]
+    },
+    {
+      "tag": "literature",
+      "patterns": [
+        "Is there a literature club in srm?"
+      ],
+      "responses": [
+        "Yes we have literature club in srm DSA community"
+      ]
+    },
+    {
+      "tag": "racing",
+      "patterns": [
+        "Are there a  racing club in srm?"
+      ],
+      "responses": ["Yes we have many racing  clubs in srm "
+      ]
+    },
+    {
+      "tag": "dance",
+      "patterns": [
+        "Is there a dance club in srm?"
+      ],
+      "responses": [
+        "Yes we have dance club in srm DSA community"
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Is there a music club in srm?"
+      ],
+      "responses": [
+        "Yes we have music club in srm DSA community"
+      ]
+    },
+    {
+      "tag": "coding",
+      "patterns": [
+        "Are there any coding club in srm?"
+      ],
+      "responses": [
+        "Yes we have many different coding  club in srm community"
+      ]
+    },
+    {
+      "tag": "techpark",
+      "patterns": [
+        "What is techpark building in college?",
+        "techpark building srm"
+      ],
+      "responses": [
+        "it is the most advance building which consist labs for research studies and host classes from 2 year  "
+      ]
+    },
+    {
+      "tag": "Hostel",
+      "patterns": [
+                   "how many hostels are available for first year students"
+      ],
+      "responses": ["there are 4 hostels available Kaari,Paari,Adhyaman,Nelson Mandela"
+      ]
+    },
+    {
+      "tag": "Timing",
+      "patterns": ["What is the last entry timing for entering hostel"
+      ],
+      "responses": [
+        "10 p.m is the last time to enter hostel ,you can ask for written permission from warden if you want to be outside for night "
+      ]
+    },
+    {
+      "tag": "java",
+      "patterns": ["where is java canteen area and are there many shops their?",
+                   "location of java",
+                   "java canteen area in srm"
+      ],
+      "responses": [
+        "it is located near clock tower and is the canteen area of srm with variety of  different eatables shops available"
+      ]
+    },
+    {
+      "tag": "Ub building",
+      "patterns": ["what is Ub building and it's significance",
+                   "where is Ub building"
+      ],
+      "responses": [
+        "Ub building is located near the main gate of srm and is used for hosting classes for first year,it is fully ac and consist of many important floors like foreign management affaris,Fees related issues ,library of srm"
+      ]
+    },
+    {
+      "tag": "bank",
+      "patterns": ["Are there any bank in Srm",
+                   "location of bank atm in Srm",
+                   "where are bank in srm"
+      ],
+      "responses": ["Srm ub building consist of SBI bank & atm ",
+                    "There are also atm bank near clock tower and main block of srm"
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["is there any transport service available in srm",
+                   "transport service in srm",
+        "transport in srm"
+      ],
+      "responses": ["SRM consist of bus service to travel inside the campus which is available till 9p.m "
+      ]
+    },
+    {
+      "tag": "hostel food",
+      "patterns": ["where is the mess to eat hostel food in srm",
+                   "where can we eat hostel food"
+      ],
+      "responses": [
+        "for first year the mess is available inside sannsai building, for second year their are different messes according to the hostel student accommodate "
+
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "is their any website where we can  access our attendance and updated result?  ",
+        "where can we check our attendance in website ",
+        "How can we see our attendance"
+
+      ],
+      "responses": [
+        "academia.edu website which can be accessed by srm students shows results ,attendance ,time -table ,academic calender of srm"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["where can we pay our fees ",
+                   "where can we gets update regarding fees status?"
+      ],
+      "responses": ["feekart is the website which provide update regarding fees status and you can pay fees there"
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": ["do srm provide scholarship to students",
+                   "do srm students gets scholarship if they score well?",
+                   "how can we apply for scholarship in srm"
+      ],
+      "responses": [
+        "Srm provides semester wise scholarship to students who scores good percentile and they also provide scholarship to sports students"
+      ]
+    },
+    {
+      "tag": "exchange program",
+      "patterns": ["do we have student exchange program in srm",
+                   "Can we study our semester abroad in srm through student exchange?",
+                   "is there student exchange program in srm",
+                   "student exchange program "
+      ],
+      "responses": [
+        "srm have ties with various international universities and they provide semester exchange program to the students who are interested in it"
+      ]
+    },
+    {
+      "tag": "international students",
+      "patterns": ["do srm have international students",
+                   "are there international students in srm",
+                   "international student in srm"
+      ],
+      "responses": [
+        "srm consist of international students from all over the world and many are exchanged student coming for semester studies  "
+      ]
+    },
+    {
+      "tag": "hospital ",
+      "patterns": ["Do we get free checkup in srm hospital",
+                   "is srm hospital free for students"
+      ],
+      "responses": ["yes they provide free checkup for students and we only need to pay for medicines"
+      ]
+    },
+    {
+      "tag": "blocks",
+      "patterns": ["how many blocks are there in srm",
+                   "do srm consist of different blocks",
+                   "what are blocks name in srm"
+
+      ],
+      "responses": [
+        " Srm consist of engineering block , architecture block, polytechnic block , Medical block, Mechanical & civil block"
+
+      ]
+    },
+    {
+      "tag": "playground",
+      "patterns": ["how many playground are in srm",
+                   "do srm consist of playground",
+                   "where are playground located in srm"
+      ],
+      "responses": ["Srm consist of 2 playground one near techpark and one near medical block"
+
+      ]
+    },
+    {
+      "tag": "indoor games",
+      "patterns": ["do srm have indoor games facility",
+                   "are there any indoor games in srm?",
+                   "where is srm indoor games facility located"
+      ],
+      "responses": [
+        "Srm consist of a big indoor game facility located near srm medical block ,it consist of t.t tennis,and other indoor games"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": ["required attendance to attend exam ",
+                   "what is the attendance required to sit for exams"
+      ],
+      "responses": [
+        "75% attendance is required to sit for exams in srm ,if not then they'll be facing arrears in the respective subject"
+      ]
+    },
+    {
+      "tag": "food delivery",
+      "patterns": ["is food delivery  accepted inside campus",
+                   "at night is food delivery available"
+      ],
+      "responses": [
+        "yes food delivery is available inside campus ,but at nighttime we need to go to main gate to receive our order"
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["how is placement in srm",
+                   "Is there good placement in srm",
+                   "placement of srm"
+      ],
+      "responses": [
+        "SRM provides various opportunity for students and placement is excellent in SRM for cse students it's one of the best place to enroll"
+      ]
+    },
+{
+      "tag": "specialization",
+      "patterns": ["do srm provide specialization with courses ",
+                   "can we get specialization in srm ",
+                   "is specialization available in srm"
+      ],
+      "responses": [
+        "Yes srm provides different specialization for many courses and we can choose it"
+      ]
+    },
+{
+      "tag": "wifi",
+      "patterns": ["is there wifi available in campus",
+                   "free wifi in campus",
+                   "how can we access wifi in campus"
+      ],
+      "responses": [
+        "every student can access free wifi in campus through unique password given to everybody and college mail id"
+
+      ]
+    },
+{
+      "tag": "college id",
+      "patterns": ["do we need to carry college id in campus",
+                   "use of college id ",
+                   "what can we use college id for",
+                   "where can we use college id"
+      ],
+      "responses": [
+        "we need to carry college id with us everyday,it helps to identify the student and we can access places like library inside the campus borrow books etc "
+      ]
+    },
+{
+      "tag": "foreign language",
+      "patterns": ["do we learn foreign language in srm",
+                   "can we learn foreign language ",
+                   "what is foreign language course "
+      ],
+      "responses": [
+        "SRM provides students to choose which foreign language they want to learn,they can also further study it in extra credit course"
+      ]
+    },
+{
+      "tag": "local market",
+      "patterns": ["is there any local market near srm",
+                   "how far is local market from srm"
+      ],
+      "responses": [
+        "Pothari is the local market outside srm ,it consist of every type of daily need shops and other markets"
+      ]
+    },
+{
+      "tag": "rental flats",
+      "patterns": ["are there any rental flats near srm",
+                   "how can we rent flat outside srm"
+      ],
+      "responses": [
+        "We have different  society and pg's outside srm which are available for rents like abode,estancia ,VGN, green peral, Safa etc "
+      ]
+    },
+{
+      "tag": "tournaments",
+      "patterns": ["do we have sports tournament in srm",
+                   "are there sport tournament in campus",
+                   "do srm conduct sport tournament"
+      ],
+      "responses": [
+        "We have multiple sports tournament in campus throughout the year ,it consist of local,state and national tournament  "
+      ]
+    },
+{
+      "tag": "personality development",
+      "patterns": ["is there personality development course in srm",
+                   "do srm provide personality development course",
+                   "how can we personality development in srm"
+      ],
+      "responses": [
+        "SRM focus at personality development of student and from first year onwards we have classes regarding it "
+      ]
+    },
+{
+      "tag": "competitive coding",
+      "patterns": ["do we have competitive coding in srm",
+                   "is there competitive coding course in srm",
+                   "how can we prepare for competitive coding"
+      ],
+      "responses": [
+        "SRM provides CCC course for competitive coding and they also provide online platforms like hacker earth ,they also have various coding clubs in campus "
+      ]
+    },
+{
+      "tag": "holidays",
+      "patterns": ["Do srm provides holidays for north festivals",
+                   "where can we see our holidays ",
+                   "do srm provides holidays for festivals"
+      ],
+      "responses": [
+        "SRM provides us calendar in academia where we can check our holidays"
+      ]
+    },
+{
+      "tag": "ragging",
+      "patterns": ["is there ragging in campus",
+                   "do we have ragging "
+
+      ],
+      "responses": [
+        "SRM do not supports ragging and strictly prohibits it,strict action is taken against ragging in srm "
+      ]
+    },
+{
+      "tag": "covid",
+      "patterns": ["how are measures against covid in srm",
+                   "do srm takes measures against covid"
+      ],
+      "responses": [
+        "SRM follows ugc guidelines for covid measures,if there are cases of covid in campus immediate action is taken and quarantine guidelines are followed"
+      ]
+    },
+{
+      "tag": "online courses",
+      "patterns": ["do srm provide online courses ",
+                   "are there online courses in srm",
+                   "how are online courses"
+      ],
+      "responses": [
+        "SRm have ties with coursera and AWS ,they provide free courses to srm students and we can learn from there"
+      ]
+    },
+
+{
+      "tag": "location",
+      "patterns": ["where is srm location",
+                   "location of srm"
+      ],
+      "responses": [
+        "SRM kattankulathur  is located near pothari station,whereas the other one is located near ramapuram "
+      ]
+    },
+{
+      "tag": "interview preparation",
+      "patterns": ["Do srm provide interview preparation",
+                   "is there  interview preparation ",
+                   "how is  interview preparation done?"
+      ],
+      "responses": [
+        "SRM provides classes and guides for student soo they can prepare for interview ,they focus on development of soft skills of students"
+      ]
+    },
+{
+      "tag": "Faculty",
+      "patterns": ["Do srm provide faculty guidance to students ",
+                   "Is there any faculty help in srm",
+                   "how can we report our issues",
+                   "what do faculty do"
+      ],
+      "responses": ["Srm assign faculty per batch of students i.e 70 students, they help us regarding any issues like marks ,attendance,fever etc"
+
+      ]
+    },
+{
+      "tag": "fest ",
+      "patterns": ["are there any fest in srm",
+                   "do srm have fest ",
+                   "what fest are in srm"
+      ],
+      "responses": ["SRM have 2 fest throughout the year.Aarush is the technical fest of srm and Milan is the cultural fest of srm  "
+
+      ]
+    },
+{
+      "tag": "choose subject",
+      "patterns": ["Can we choose subject we like ",
+      "can higher year choose subject they like",
+      "how can we choose subject"
+      ],
+      "responses": [
+        "In higher year students can choose elective subjects from pool of available subjects,they are given on basics first come first serve "
+      ]
+    },
+{
+      "tag": "main campus",
+      "patterns": ["where is main campus located",
+                   "what do we study at main campus",
+                   "do we study at main campus"
+      ],
+      "responses": [
+        "Main campus is located near pothari station. The civil & mechanical and automation branches conduct their studies there also real time working projects related to these are made and tested there "
+      ]
+    },
+{
+      "tag": "labs",
+      "patterns": ["what are labs available in srm",
+      "labs in srm",
+      "do we have labs in srm"
+      ],
+      "responses": [
+        "Srm have various labs like coding,EEE,chemistry,physics,mechanical etc all branches labs are scattered all around the campus"
+      ]
+    },
+{
+      "tag": "hostel life",
+      "patterns": ["how is hostel life in srm",
+      "is hostel life good in campus",
+      "what is hostel life like in campus"
+      ],
+      "responses": [
+        "SRM hostel life is full of fun,we get connected to individuals from different parts of country ,and overall it's an unforgettable experience"
+      ]
+    },
+{
+      "tag": "mess food",
+      "patterns": ["how is mess food in srm",
+      "is mess food good ",
+      "what is mess food like?"
+      ],
+      "responses": [
+        "SRM mess food is good according to the taste you like,for north indian students it's a little difficult to adjust but after some time they get used to it"
+      ]
+    },
+{
+      "tag": "environment",
+      "patterns": ["how is srm environment",
+      "is srm environment good for studies",
+      "environment"
+      ],
+      "responses": [
+        "SRM environment is good for studies ,the teachers are helpful and they focus on development of students ,if we have any difficulty they help us to overcome it"
+      ]
+    },
+{
+      "tag": "post office",
+      "patterns": ["do we have post office in srm",
+      "where is post office ",
+      "post office location in campus"
+      ],
+      "responses": [
+        "SRM post office is located in front of main campus"
+      ]
+    },
+{
+      "tag": "research",
+      "patterns": ["do srm support research",
+      "is there any research in srm",
+      "research conducted in srm"
+      ],
+      "responses": [
+        "SRM is very supportive to research and they are constantly going around the campus in different fields ,if student have a good idea the srm faculty supports it and also provides financial aid for it"
+      ]
+    },
+{
+      "tag": "MUN",
+      "patterns": ["do we have MUN in srm",
+      "is SRM mun there",
+      "do srm go for mun"
+      ],
+      "responses": [
+        "Srm MUN is one of the biggest college mun in India ,It is held around Feb and students from all over the country comes to participate in it"
+      ]
+    },
+{
+      "tag": "organization",
+      "patterns": ["what are the organization in srm",
+      "do we have organization ",
+      "name of organization in srm"
+      ],
+      "responses": [
+        "SRm have different organization like Aaruush, DSA , Hackathon srm, DSC srm, Team robocon, Milan srm, team rudra, SRM iet  etc "
+      ]
+    },
+{
+      "tag": "workshops",
+      "patterns": ["do we have workshops in campus",
+      "are there workshops ",
+      "How are the workshops in srm"
+      ],
+      "responses": [
+        "SRM supports individual developing their skills and it provides various workshops regarding different topics and we can hone our skills by attending them "
+      ]
+    },
+{
+      "tag": "auditorium",
+      "patterns": ["where is auditorium ",
+      "what is name of auditorium",
+      "is srm auditorium good"
+      ],
+      "responses": [
+        "T.p ganesan Auditorium inside campus one of the biggest Auditorium in India,it hosts all the main functions of srm ,workshops are conducted there and fest are conducted "
+      ]
+    },
+{
+      "tag": "DSA",
+      "patterns": ["what is DSA srm",
+      "use of DSA",
+      "how is DSA srm"
+      ],
+      "responses": [
+        "DSA is the student affairs body of srm,it helps to keep communication between higher ups and students also it maintain discipline in students "
+      ]
+    },
+{
+      "tag": "travel designation ",
+      "patterns": ["what are travel designation",
+      "travel designation in chennai"
+      ],
+      "responses": ["Students can go to pondicherry ,Kerala ,Ooty, zoo "
+
+      ]
+    }
+
+
+  ]
+}
